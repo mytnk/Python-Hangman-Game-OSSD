@@ -14,31 +14,19 @@ python --version
 ## Start the Game
 
 ```python
-python "Handman Program"/hangman.py
+python "Hangman Program"/hangman.py
 ```
 
 If python does not work:
 
 ```python
-python3 "Handman Program"/hangman.py
+python3 "Hangman Program"/hangman.py
 ```
 
 ## How to Play
 
-- Guess one letter at a time
-- You have limited lives
-- Wrong guess = lose 1 life
-- If lives become 0 → Game Over
-- If you guess all letters → You Win
-
 
 ## Project Structure
-
-Handman Program/
-│
-├── hangman.py
-├── words.txt
-└── README.md
 
 
 ## Features
@@ -46,4 +34,4 @@ Handman Program/
 - Random word selection
 - Input validation
 - Win / Lose detection
-- Simple console UI
+- Tkinter UI
